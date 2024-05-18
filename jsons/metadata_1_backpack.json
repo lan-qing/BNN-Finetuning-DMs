@@ -1,0 +1,102 @@
+{
+    "backpack_jungle": {
+        "data_dir": "backpack-1",
+        "instance_prompt": "a qwe backpack in the jungle"
+    },
+    "backpack_snow": {
+        "data_dir": "backpack-2",
+        "instance_prompt": "a qwe backpack in the snow"
+    },
+    "backpack_beach": {
+        "data_dir": "backpack-3",
+        "instance_prompt": "a qwe backpack on the beach"
+    },
+    "backpack_street": {
+        "data_dir": "backpack-4",
+        "instance_prompt": "a qwe backpack on a cobblestone street"
+    },
+    "backpack_fabric": {
+        "data_dir": "backpack-5",
+        "instance_prompt": "a qwe backpack on top of pink fabric"
+    },
+    "backpack_wood": {
+        "data_dir": "backpack-6",
+        "instance_prompt": "a qwe backpack on top of a wooden floor"
+    },
+    "backpack_city": {
+        "data_dir": "backpack-7",
+        "instance_prompt": "a qwe backpack with a city in the background"
+    },
+    "backpack_mountain": {
+        "data_dir": "backpack-8",
+        "instance_prompt": "a qwe backpack with a mountain in the background"
+    },
+    "backpack_blue_house": {
+        "data_dir": "backpack-9",
+        "instance_prompt": "a qwe backpack with a blue house in the background"
+    },
+    "backpack_rug_forest": {
+        "data_dir": "backpack-10",
+        "instance_prompt": "a qwe backpack on top of a purple rug in a forest"
+    },
+    "backpack_wheat_field": {
+        "data_dir": "backpack-11",
+        "instance_prompt": "a qwe backpack with a wheat field in the background"
+    },
+    "backpack_autumn": {
+        "data_dir": "backpack-12",
+        "instance_prompt": "a qwe backpack with a tree and autumn leaves in the background"
+    },
+    "backpack_eiffel": {
+        "data_dir": "backpack-13",
+        "instance_prompt": "a qwe backpack with the Eiffel Tower in the background"
+    },
+    "backpack_water": {
+        "data_dir": "backpack-14",
+        "instance_prompt": "a qwe backpack floating on top of water"
+    },
+    "backpack_milk": {
+        "data_dir": "backpack-15",
+        "instance_prompt": "a qwe backpack floating in an ocean of milk"
+    },
+    "backpack_sunflowers": {
+        "data_dir": "backpack-16",
+        "instance_prompt": "a qwe backpack on top of green grass with sunflowers around it"
+    },
+    "backpack_mirror": {
+        "data_dir": "backpack-17",
+        "instance_prompt": "a qwe backpack on top of a mirror"
+    },
+    "backpack_sidewalk": {
+        "data_dir": "backpack-18",
+        "instance_prompt": "a qwe backpack on top of the sidewalk in a crowded street"
+    },
+    "backpack_dirt_road": {
+        "data_dir": "backpack-19",
+        "instance_prompt": "a qwe backpack on top of a dirt road"
+    },
+    "backpack_white_rug": {
+        "data_dir": "backpack-20",
+        "instance_prompt": "a qwe backpack on top of a white rug"
+    },
+    "backpack_red": {
+        "data_dir": "backpack-21",
+        "instance_prompt": "a red qwe backpack"
+    },
+    "backpack_purple": {
+        "data_dir": "backpack-22",
+        "instance_prompt": "a purple qwe backpack"
+    },
+    "backpack_shiny": {
+        "data_dir": "backpack-23",
+        "instance_prompt": "a shiny qwe backpack"
+    },
+    "backpack_wet": {
+        "data_dir": "backpack-24",
+        "instance_prompt": "a wet qwe backpack"
+    },
+    "backpack_cube": {
+        "data_dir": "backpack-25",
+        "instance_prompt": "a cube shaped qwe backpack"
+    }
+}
