@@ -2,8 +2,8 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2405.19931-b31b1b.svg)](https://arxiv.org/abs/2405.19931)
 
-Few-shot fine-tuning enables efficient personalization of diffusion models, but its training dynamics remain poorly understood.  
-This work identifies a previously underexplored **corruption stage** during few-shot fine-tuning, where generation quality temporarily degrades and exhibits structured noisy artifacts before eventually recovering through overfitting. We provide a theoretical explanation showing that this phenomenon arises from a **narrowed learning distribution** intrinsic to few-shot regimes. To mitigate corruption, we introduce a Bayesian treatment of diffusion models via variational inference, which implicitly broadens the learned distribution and yields a training objective interpretable as an expectation of the diffusion loss regularized toward the pretrained model. The proposed approach is fully compatible with existing few-shot fine-tuning methods (e.g., DreamBooth, LoRA, OFT) and introduces no additional inference cost, while consistently improving fidelity, quality, and diversity across personalization tasks.
+This repository provides an implementation of **Bayesian Neural Network (BNN)–based fine-tuning for diffusion models**, as proposed in our paper. It is designed to reproduce the key empirical results on mitigating the *corruption stage* observed during few-shot fine-tuning, by applying variational Bayesian training on top of existing personalization methods such as DreamBooth, LoRA, and OFT. The implementation follows the paper setup and introduces no additional inference-time cost.
+
 
 ## Requirements
 
@@ -43,3 +43,15 @@ The generated images can be found in the `logs` directory. Results are evaluated
 
 ## License
 This project is licensed under the Apache License 2.0.
+
+## Reference
+If you find this repository or our work helpful, please consider citing:
+
+```bibtex
+@article{wu2024exploring,
+  title={Exploring Diffusion Models' Corruption Stage in Few-Shot Fine-tuning and Mitigating with Bayesian Neural Networks},
+  author={Wu, Xiaoyu and Zhang, Jiaru and Hua, Yang and Lyu, Bohan and Wang, Hao and Song, Tao and Guan, Haibing},
+  journal={arXiv preprint arXiv:2405.19931},
+  year={2024}
+}
+
